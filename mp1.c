@@ -16,7 +16,7 @@ void main(){
 	else{
 		wait(NULL);
 		printf("\nSoy el padre y mi pid es: %d \n", getpid());
-		printf("\nMi hijo es el proceso: %d \n", getpid()-1);
+		printf("\nMi hijo es el proceso: %d \n", pid);
 	}
 	exit(0);
 }
